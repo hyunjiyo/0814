@@ -9,7 +9,7 @@ export const AuthContextProvider = ({ children }) => {
 
   const login = () => {
     //TO DO
-    setCurrentUser({id:1, name:"john", profilePic: "https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600"})
+    setCurrentUser({ id: 1, name: 'john', profilePic: 'https://images.pexels.com/photos/17557143/pexels-photo-17557143.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load' });
   };
 
   useEffect(() => {
